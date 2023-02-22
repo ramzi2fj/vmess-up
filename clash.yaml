@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-02-22 15:38:42
+# 创建时间：2023-02-22 15:44:37
 # 使用模版：V2RaySE 默认模版
-# 节点数量：53
+# 节点数量：32
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,410 +21,263 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"185.148.106.249","type":"vless","server":"185.148.106.249","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
   - {"name":"45.95.241.213","type":"vmess","server":"45.95.241.213","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"414c49.ddns.net_1","type":"vmess","server":"414c49.ddns.net","port":443,"cipher":"auto","uuid":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ancient-dream-3d9b.414c49.workers.dev","network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-vm","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}}}
-  - {"name":"212.110.134.18","type":"vmess","server":"212.110.134.18","port":443,"cipher":"chacha20-poly1305","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"212.110.134.166","type":"vmess","server":"212.110.134.166","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"205.233.181.20","type":"vmess","server":"205.233.181.20","port":443,"cipher":"chacha20-poly1305","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"199.212.90.33","type":"vmess","server":"199.212.90.33","port":443,"cipher":"chacha20-poly1305","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"195.85.59.99_1","type":"vmess","server":"195.85.59.99","port":443,"cipher":"chacha20-poly1305","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"170.114.45.59","type":"vmess","server":"170.114.45.59","port":443,"cipher":"chacha20-poly1305","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"194.53.53.254_1","type":"vmess","server":"194.53.53.254","port":443,"cipher":"auto","uuid":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ancient-dream-3d9b.414c49.workers.dev","network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-vm","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}}}
-  - {"name":"192.65.217.10_1","type":"vmess","server":"192.65.217.10","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"191.101.251.31","type":"vmess","server":"191.101.251.31","port":443,"cipher":"chacha20-poly1305","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"191.101.251.178","type":"vmess","server":"191.101.251.178","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"188.42.89.237_1","type":"vmess","server":"188.42.89.237","port":443,"cipher":"chacha20-poly1305","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"188.42.89.194_1","type":"vmess","server":"188.42.89.194","port":443,"cipher":"auto","uuid":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ancient-dream-3d9b.414c49.workers.dev","network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-vm","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}}}
-  - {"name":"170.114.45.34","type":"vmess","server":"170.114.45.34","port":443,"cipher":"chacha20-poly1305","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"160.153.0.201","type":"vmess","server":"160.153.0.201","port":443,"cipher":"chacha20-poly1305","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"160.153.0.173","type":"vmess","server":"160.153.0.173","port":443,"cipher":"none","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"159.246.55.85","type":"vmess","server":"159.246.55.85","port":443,"cipher":"chacha20-poly1305","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"159.112.235.122_1","type":"vmess","server":"159.112.235.122","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
+  - {"name":"162.159.33.180 ؟\r","type":"trojan","server":"162.159.33.180","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
+  - {"name":"141.101.115.240 ؟\r","type":"trojan","server":"141.101.115.240","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
+  - {"name":"190.93.246.49 ؟\r","type":"trojan","server":"190.93.246.49","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
+  - {"name":"108.162.198.60 ؟\r","type":"trojan","server":"108.162.198.60","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
+  - {"name":"159.112.235.122\r","type":"trojan","server":"159.112.235.122","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
+  - {"name":"188.42.89.194\r","type":"trojan","server":"188.42.89.194","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
+  - {"name":"191.101.251.24\r","type":"trojan","server":"191.101.251.24","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
+  - {"name":"414c49.ddns.net\r","type":"trojan","server":"414c49.ddns.net","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
+  - {"name":"141.101.115.240 ؟","type":"vmess","server":"141.101.115.240","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
+  - {"name":"162.159.33.180 ؟","type":"vmess","server":"162.159.33.180","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
+  - {"name":"108.162.198.60 ؟","type":"vmess","server":"108.162.198.60","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
+  - {"name":"190.93.246.49 ؟","type":"vmess","server":"190.93.246.49","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
   - {"name":"147.185.161.199","type":"vmess","server":"147.185.161.199","port":443,"cipher":"chacha20-poly1305","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"80.94.83.14","type":"vless","server":"80.94.83.14","port":443,"uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","tls":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"45.85.118.1","type":"vless","server":"45.85.118.1","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"414c49.ddns.net_2","type":"vless","server":"414c49.ddns.net","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"203.30.191.74","type":"vless","server":"203.30.191.74","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"195.85.59.99_2","type":"vless","server":"195.85.59.99","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"103.160.204.4","type":"vless","server":"103.160.204.4","port":443,"uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","tls":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"194.53.53.254_2","type":"vless","server":"194.53.53.254","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"192.65.217.10_2","type":"vless","server":"192.65.217.10","port":443,"uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","tls":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"191.101.251.24_1","type":"vless","server":"191.101.251.24","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"191.101.251.178 ","type":"vless","server":"191.101.251.178","port":443,"uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","tls":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"188.42.89.237_2","type":"vless","server":"188.42.89.237","port":443,"uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","tls":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"188.42.89.194_2","type":"vless","server":"188.42.89.194","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"185.238.228.14","type":"vless","server":"185.238.228.14","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"154.83.2.29","type":"vless","server":"154.83.2.29","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"141.193.213.133","type":"vless","server":"141.193.213.133","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"108.165.216.88","type":"vless","server":"108.165.216.88","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"414c49.ddns.net_3","type":"trojan","server":"414c49.ddns.net","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
-  - {"name":"191.101.251.24_2","type":"trojan","server":"191.101.251.24","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
-  - {"name":"188.42.89.194_3","type":"trojan","server":"188.42.89.194","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
-  - {"name":"159.112.235.122_2","type":"trojan","server":"159.112.235.122","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
-  - {"name":"141.101.115.240 ؟_1","type":"trojan","server":"141.101.115.240","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
-  - {"name":"190.93.246.49 ؟_1","type":"vless","server":"190.93.246.49","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"190.93.246.49 ؟_2","type":"vmess","server":"190.93.246.49","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"190.93.246.49 ؟_3","type":"trojan","server":"190.93.246.49","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
-  - {"name":"108.162.198.60 ؟_1","type":"vless","server":"108.162.198.60","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"108.162.198.60 ؟_2","type":"vmess","server":"108.162.198.60","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"108.162.198.60 ؟_3","type":"trojan","server":"108.162.198.60","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
-  - {"name":"162.159.33.180 ؟_1","type":"vless","server":"162.159.33.180","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"162.159.33.180 ؟_2","type":"vmess","server":"162.159.33.180","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
-  - {"name":"162.159.33.180 ؟_3","type":"trojan","server":"162.159.33.180","port":443,"udp":true,"password":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","sni":"ancient-dream-3d9b.414c49.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-tr","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}},"alpn":["http/1.1"]}
-  - {"name":"141.101.115.240 ؟_2","type":"vless","server":"141.101.115.240","port":443,"uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","tls":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vl","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
-  - {"name":"141.101.115.240 ؟_3","type":"vmess","server":"141.101.115.240","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
+  - {"name":"159.112.235.122","type":"vmess","server":"159.112.235.122","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
+  - {"name":"159.246.55.85","type":"vmess","server":"159.246.55.85","port":443,"cipher":"chacha20-poly1305","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
+  - {"name":"160.153.0.173","type":"vmess","server":"160.153.0.173","port":443,"cipher":"none","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
+  - {"name":"160.153.0.201","type":"vmess","server":"160.153.0.201","port":443,"cipher":"chacha20-poly1305","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
+  - {"name":"170.114.45.34","type":"vmess","server":"170.114.45.34","port":443,"cipher":"chacha20-poly1305","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
+  - {"name":"188.42.89.237","type":"vmess","server":"188.42.89.237","port":443,"cipher":"chacha20-poly1305","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
+  - {"name":"188.42.89.194","type":"vmess","server":"188.42.89.194","port":443,"cipher":"auto","uuid":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ancient-dream-3d9b.414c49.workers.dev","network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-vm","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}}}
+  - {"name":"191.101.251.178","type":"vmess","server":"191.101.251.178","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
+  - {"name":"191.101.251.31","type":"vmess","server":"191.101.251.31","port":443,"cipher":"chacha20-poly1305","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
+  - {"name":"192.65.217.10","type":"vmess","server":"192.65.217.10","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
+  - {"name":"194.53.53.254","type":"vmess","server":"194.53.53.254","port":443,"cipher":"auto","uuid":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ancient-dream-3d9b.414c49.workers.dev","network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-vm","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}}}
+  - {"name":"170.114.45.59","type":"vmess","server":"170.114.45.59","port":443,"cipher":"chacha20-poly1305","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
+  - {"name":"195.85.59.99","type":"vmess","server":"195.85.59.99","port":443,"cipher":"chacha20-poly1305","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
+  - {"name":"199.212.90.33","type":"vmess","server":"199.212.90.33","port":443,"cipher":"chacha20-poly1305","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
+  - {"name":"205.233.181.20","type":"vmess","server":"205.233.181.20","port":443,"cipher":"chacha20-poly1305","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
+  - {"name":"212.110.134.166","type":"vmess","server":"212.110.134.166","port":443,"cipher":"none","uuid":"5d165b59-02d7-4455-b62b-ed8456bdc275","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dawn-fog-a4e3.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"dawn-fog-a4e3.414c49.workers.dev"}}}
+  - {"name":"212.110.134.18","type":"vmess","server":"212.110.134.18","port":443,"cipher":"chacha20-poly1305","uuid":"0d8d208a-1373-43a4-b00a-757558e81b1b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"plain-disk-270c.414c49.workers.dev","network":"ws","ws-opts":{"path":"/vm","headers":{"host":"plain-disk-270c.414c49.workers.dev"}}}
+  - {"name":"414c49.ddns.net","type":"vmess","server":"414c49.ddns.net","port":443,"cipher":"auto","uuid":"7e76b7e9-a95c-43ee-8cef-d3aed0a11216","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ancient-dream-3d9b.414c49.workers.dev","network":"ws","ws-opts":{"path":"/7e76b7e9-a95c-43ee-8cef-d3aed0a11216-vm","headers":{"host":"ancient-dream-3d9b.414c49.workers.dev"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 185.148.106.249
       - 45.95.241.213
-      - 414c49.ddns.net_1
-      - 212.110.134.18
-      - 212.110.134.166
-      - 205.233.181.20
-      - 199.212.90.33
-      - 195.85.59.99_1
-      - 170.114.45.59
-      - 194.53.53.254_1
-      - 192.65.217.10_1
-      - 191.101.251.31
-      - 191.101.251.178
-      - 188.42.89.237_1
-      - 188.42.89.194_1
-      - 170.114.45.34
-      - 160.153.0.201
-      - 160.153.0.173
-      - 159.246.55.85
-      - 159.112.235.122_1
+      - "162.159.33.180 ؟\r"
+      - "141.101.115.240 ؟\r"
+      - "190.93.246.49 ؟\r"
+      - "108.162.198.60 ؟\r"
+      - "159.112.235.122\r"
+      - "188.42.89.194\r"
+      - "191.101.251.24\r"
+      - "414c49.ddns.net\r"
+      - 141.101.115.240 ؟
+      - 162.159.33.180 ؟
+      - 108.162.198.60 ؟
+      - 190.93.246.49 ؟
       - 147.185.161.199
-      - 80.94.83.14
-      - 45.85.118.1
-      - 414c49.ddns.net_2
-      - 203.30.191.74
-      - 195.85.59.99_2
-      - 103.160.204.4
-      - 194.53.53.254_2
-      - 192.65.217.10_2
-      - 191.101.251.24_1
-      - '191.101.251.178 '
-      - 188.42.89.237_2
-      - 188.42.89.194_2
-      - 185.238.228.14
-      - 154.83.2.29
-      - 141.193.213.133
-      - 108.165.216.88
-      - 414c49.ddns.net_3
-      - 191.101.251.24_2
-      - 188.42.89.194_3
-      - 159.112.235.122_2
-      - 141.101.115.240 ؟_1
-      - 190.93.246.49 ؟_1
-      - 190.93.246.49 ؟_2
-      - 190.93.246.49 ؟_3
-      - 108.162.198.60 ؟_1
-      - 108.162.198.60 ؟_2
-      - 108.162.198.60 ؟_3
-      - 162.159.33.180 ؟_1
-      - 162.159.33.180 ؟_2
-      - 162.159.33.180 ؟_3
-      - 141.101.115.240 ؟_2
-      - 141.101.115.240 ؟_3
+      - 159.112.235.122
+      - 159.246.55.85
+      - 160.153.0.173
+      - 160.153.0.201
+      - 170.114.45.34
+      - 188.42.89.237
+      - 188.42.89.194
+      - 191.101.251.178
+      - 191.101.251.31
+      - 192.65.217.10
+      - 194.53.53.254
+      - 170.114.45.59
+      - 195.85.59.99
+      - 199.212.90.33
+      - 205.233.181.20
+      - 212.110.134.166
+      - 212.110.134.18
+      - 414c49.ddns.net
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 185.148.106.249
       - 45.95.241.213
-      - 414c49.ddns.net_1
-      - 212.110.134.18
-      - 212.110.134.166
-      - 205.233.181.20
-      - 199.212.90.33
-      - 195.85.59.99_1
-      - 170.114.45.59
-      - 194.53.53.254_1
-      - 192.65.217.10_1
-      - 191.101.251.31
-      - 191.101.251.178
-      - 188.42.89.237_1
-      - 188.42.89.194_1
-      - 170.114.45.34
-      - 160.153.0.201
-      - 160.153.0.173
-      - 159.246.55.85
-      - 159.112.235.122_1
+      - "162.159.33.180 ؟\r"
+      - "141.101.115.240 ؟\r"
+      - "190.93.246.49 ؟\r"
+      - "108.162.198.60 ؟\r"
+      - "159.112.235.122\r"
+      - "188.42.89.194\r"
+      - "191.101.251.24\r"
+      - "414c49.ddns.net\r"
+      - 141.101.115.240 ؟
+      - 162.159.33.180 ؟
+      - 108.162.198.60 ؟
+      - 190.93.246.49 ؟
       - 147.185.161.199
-      - 80.94.83.14
-      - 45.85.118.1
-      - 414c49.ddns.net_2
-      - 203.30.191.74
-      - 195.85.59.99_2
-      - 103.160.204.4
-      - 194.53.53.254_2
-      - 192.65.217.10_2
-      - 191.101.251.24_1
-      - '191.101.251.178 '
-      - 188.42.89.237_2
-      - 188.42.89.194_2
-      - 185.238.228.14
-      - 154.83.2.29
-      - 141.193.213.133
-      - 108.165.216.88
-      - 414c49.ddns.net_3
-      - 191.101.251.24_2
-      - 188.42.89.194_3
-      - 159.112.235.122_2
-      - 141.101.115.240 ؟_1
-      - 190.93.246.49 ؟_1
-      - 190.93.246.49 ؟_2
-      - 190.93.246.49 ؟_3
-      - 108.162.198.60 ؟_1
-      - 108.162.198.60 ؟_2
-      - 108.162.198.60 ؟_3
-      - 162.159.33.180 ؟_1
-      - 162.159.33.180 ؟_2
-      - 162.159.33.180 ؟_3
-      - 141.101.115.240 ؟_2
-      - 141.101.115.240 ؟_3
+      - 159.112.235.122
+      - 159.246.55.85
+      - 160.153.0.173
+      - 160.153.0.201
+      - 170.114.45.34
+      - 188.42.89.237
+      - 188.42.89.194
+      - 191.101.251.178
+      - 191.101.251.31
+      - 192.65.217.10
+      - 194.53.53.254
+      - 170.114.45.59
+      - 195.85.59.99
+      - 199.212.90.33
+      - 205.233.181.20
+      - 212.110.134.166
+      - 212.110.134.18
+      - 414c49.ddns.net
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 185.148.106.249
       - 45.95.241.213
-      - 414c49.ddns.net_1
-      - 212.110.134.18
-      - 212.110.134.166
-      - 205.233.181.20
-      - 199.212.90.33
-      - 195.85.59.99_1
-      - 170.114.45.59
-      - 194.53.53.254_1
-      - 192.65.217.10_1
-      - 191.101.251.31
-      - 191.101.251.178
-      - 188.42.89.237_1
-      - 188.42.89.194_1
-      - 170.114.45.34
-      - 160.153.0.201
-      - 160.153.0.173
-      - 159.246.55.85
-      - 159.112.235.122_1
+      - "162.159.33.180 ؟\r"
+      - "141.101.115.240 ؟\r"
+      - "190.93.246.49 ؟\r"
+      - "108.162.198.60 ؟\r"
+      - "159.112.235.122\r"
+      - "188.42.89.194\r"
+      - "191.101.251.24\r"
+      - "414c49.ddns.net\r"
+      - 141.101.115.240 ؟
+      - 162.159.33.180 ؟
+      - 108.162.198.60 ؟
+      - 190.93.246.49 ؟
       - 147.185.161.199
-      - 80.94.83.14
-      - 45.85.118.1
-      - 414c49.ddns.net_2
-      - 203.30.191.74
-      - 195.85.59.99_2
-      - 103.160.204.4
-      - 194.53.53.254_2
-      - 192.65.217.10_2
-      - 191.101.251.24_1
-      - '191.101.251.178 '
-      - 188.42.89.237_2
-      - 188.42.89.194_2
-      - 185.238.228.14
-      - 154.83.2.29
-      - 141.193.213.133
-      - 108.165.216.88
-      - 414c49.ddns.net_3
-      - 191.101.251.24_2
-      - 188.42.89.194_3
-      - 159.112.235.122_2
-      - 141.101.115.240 ؟_1
-      - 190.93.246.49 ؟_1
-      - 190.93.246.49 ؟_2
-      - 190.93.246.49 ؟_3
-      - 108.162.198.60 ؟_1
-      - 108.162.198.60 ؟_2
-      - 108.162.198.60 ؟_3
-      - 162.159.33.180 ؟_1
-      - 162.159.33.180 ؟_2
-      - 162.159.33.180 ؟_3
-      - 141.101.115.240 ؟_2
-      - 141.101.115.240 ؟_3
+      - 159.112.235.122
+      - 159.246.55.85
+      - 160.153.0.173
+      - 160.153.0.201
+      - 170.114.45.34
+      - 188.42.89.237
+      - 188.42.89.194
+      - 191.101.251.178
+      - 191.101.251.31
+      - 192.65.217.10
+      - 194.53.53.254
+      - 170.114.45.59
+      - 195.85.59.99
+      - 199.212.90.33
+      - 205.233.181.20
+      - 212.110.134.166
+      - 212.110.134.18
+      - 414c49.ddns.net
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 185.148.106.249
       - 45.95.241.213
-      - 414c49.ddns.net_1
-      - 212.110.134.18
-      - 212.110.134.166
-      - 205.233.181.20
-      - 199.212.90.33
-      - 195.85.59.99_1
-      - 170.114.45.59
-      - 194.53.53.254_1
-      - 192.65.217.10_1
-      - 191.101.251.31
-      - 191.101.251.178
-      - 188.42.89.237_1
-      - 188.42.89.194_1
-      - 170.114.45.34
-      - 160.153.0.201
-      - 160.153.0.173
-      - 159.246.55.85
-      - 159.112.235.122_1
+      - "162.159.33.180 ؟\r"
+      - "141.101.115.240 ؟\r"
+      - "190.93.246.49 ؟\r"
+      - "108.162.198.60 ؟\r"
+      - "159.112.235.122\r"
+      - "188.42.89.194\r"
+      - "191.101.251.24\r"
+      - "414c49.ddns.net\r"
+      - 141.101.115.240 ؟
+      - 162.159.33.180 ؟
+      - 108.162.198.60 ؟
+      - 190.93.246.49 ؟
       - 147.185.161.199
-      - 80.94.83.14
-      - 45.85.118.1
-      - 414c49.ddns.net_2
-      - 203.30.191.74
-      - 195.85.59.99_2
-      - 103.160.204.4
-      - 194.53.53.254_2
-      - 192.65.217.10_2
-      - 191.101.251.24_1
-      - '191.101.251.178 '
-      - 188.42.89.237_2
-      - 188.42.89.194_2
-      - 185.238.228.14
-      - 154.83.2.29
-      - 141.193.213.133
-      - 108.165.216.88
-      - 414c49.ddns.net_3
-      - 191.101.251.24_2
-      - 188.42.89.194_3
-      - 159.112.235.122_2
-      - 141.101.115.240 ؟_1
-      - 190.93.246.49 ؟_1
-      - 190.93.246.49 ؟_2
-      - 190.93.246.49 ؟_3
-      - 108.162.198.60 ؟_1
-      - 108.162.198.60 ؟_2
-      - 108.162.198.60 ؟_3
-      - 162.159.33.180 ؟_1
-      - 162.159.33.180 ؟_2
-      - 162.159.33.180 ؟_3
-      - 141.101.115.240 ؟_2
-      - 141.101.115.240 ؟_3
+      - 159.112.235.122
+      - 159.246.55.85
+      - 160.153.0.173
+      - 160.153.0.201
+      - 170.114.45.34
+      - 188.42.89.237
+      - 188.42.89.194
+      - 191.101.251.178
+      - 191.101.251.31
+      - 192.65.217.10
+      - 194.53.53.254
+      - 170.114.45.59
+      - 195.85.59.99
+      - 199.212.90.33
+      - 205.233.181.20
+      - 212.110.134.166
+      - 212.110.134.18
+      - 414c49.ddns.net
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 185.148.106.249
       - 45.95.241.213
-      - 414c49.ddns.net_1
-      - 212.110.134.18
-      - 212.110.134.166
-      - 205.233.181.20
-      - 199.212.90.33
-      - 195.85.59.99_1
-      - 170.114.45.59
-      - 194.53.53.254_1
-      - 192.65.217.10_1
-      - 191.101.251.31
-      - 191.101.251.178
-      - 188.42.89.237_1
-      - 188.42.89.194_1
-      - 170.114.45.34
-      - 160.153.0.201
-      - 160.153.0.173
-      - 159.246.55.85
-      - 159.112.235.122_1
+      - "162.159.33.180 ؟\r"
+      - "141.101.115.240 ؟\r"
+      - "190.93.246.49 ؟\r"
+      - "108.162.198.60 ؟\r"
+      - "159.112.235.122\r"
+      - "188.42.89.194\r"
+      - "191.101.251.24\r"
+      - "414c49.ddns.net\r"
+      - 141.101.115.240 ؟
+      - 162.159.33.180 ؟
+      - 108.162.198.60 ؟
+      - 190.93.246.49 ؟
       - 147.185.161.199
-      - 80.94.83.14
-      - 45.85.118.1
-      - 414c49.ddns.net_2
-      - 203.30.191.74
-      - 195.85.59.99_2
-      - 103.160.204.4
-      - 194.53.53.254_2
-      - 192.65.217.10_2
-      - 191.101.251.24_1
-      - '191.101.251.178 '
-      - 188.42.89.237_2
-      - 188.42.89.194_2
-      - 185.238.228.14
-      - 154.83.2.29
-      - 141.193.213.133
-      - 108.165.216.88
-      - 414c49.ddns.net_3
-      - 191.101.251.24_2
-      - 188.42.89.194_3
-      - 159.112.235.122_2
-      - 141.101.115.240 ؟_1
-      - 190.93.246.49 ؟_1
-      - 190.93.246.49 ؟_2
-      - 190.93.246.49 ؟_3
-      - 108.162.198.60 ؟_1
-      - 108.162.198.60 ؟_2
-      - 108.162.198.60 ؟_3
-      - 162.159.33.180 ؟_1
-      - 162.159.33.180 ؟_2
-      - 162.159.33.180 ؟_3
-      - 141.101.115.240 ؟_2
-      - 141.101.115.240 ؟_3
+      - 159.112.235.122
+      - 159.246.55.85
+      - 160.153.0.173
+      - 160.153.0.201
+      - 170.114.45.34
+      - 188.42.89.237
+      - 188.42.89.194
+      - 191.101.251.178
+      - 191.101.251.31
+      - 192.65.217.10
+      - 194.53.53.254
+      - 170.114.45.59
+      - 195.85.59.99
+      - 199.212.90.33
+      - 205.233.181.20
+      - 212.110.134.166
+      - 212.110.134.18
+      - 414c49.ddns.net
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 185.148.106.249
       - 45.95.241.213
-      - 414c49.ddns.net_1
-      - 212.110.134.18
-      - 212.110.134.166
-      - 205.233.181.20
-      - 199.212.90.33
-      - 195.85.59.99_1
-      - 170.114.45.59
-      - 194.53.53.254_1
-      - 192.65.217.10_1
-      - 191.101.251.31
-      - 191.101.251.178
-      - 188.42.89.237_1
-      - 188.42.89.194_1
-      - 170.114.45.34
-      - 160.153.0.201
-      - 160.153.0.173
-      - 159.246.55.85
-      - 159.112.235.122_1
+      - "162.159.33.180 ؟\r"
+      - "141.101.115.240 ؟\r"
+      - "190.93.246.49 ؟\r"
+      - "108.162.198.60 ؟\r"
+      - "159.112.235.122\r"
+      - "188.42.89.194\r"
+      - "191.101.251.24\r"
+      - "414c49.ddns.net\r"
+      - 141.101.115.240 ؟
+      - 162.159.33.180 ؟
+      - 108.162.198.60 ؟
+      - 190.93.246.49 ؟
       - 147.185.161.199
-      - 80.94.83.14
-      - 45.85.118.1
-      - 414c49.ddns.net_2
-      - 203.30.191.74
-      - 195.85.59.99_2
-      - 103.160.204.4
-      - 194.53.53.254_2
-      - 192.65.217.10_2
-      - 191.101.251.24_1
-      - '191.101.251.178 '
-      - 188.42.89.237_2
-      - 188.42.89.194_2
-      - 185.238.228.14
-      - 154.83.2.29
-      - 141.193.213.133
-      - 108.165.216.88
-      - 414c49.ddns.net_3
-      - 191.101.251.24_2
-      - 188.42.89.194_3
-      - 159.112.235.122_2
-      - 141.101.115.240 ؟_1
-      - 190.93.246.49 ؟_1
-      - 190.93.246.49 ؟_2
-      - 190.93.246.49 ؟_3
-      - 108.162.198.60 ؟_1
-      - 108.162.198.60 ؟_2
-      - 108.162.198.60 ؟_3
-      - 162.159.33.180 ؟_1
-      - 162.159.33.180 ؟_2
-      - 162.159.33.180 ؟_3
-      - 141.101.115.240 ؟_2
-      - 141.101.115.240 ؟_3
+      - 159.112.235.122
+      - 159.246.55.85
+      - 160.153.0.173
+      - 160.153.0.201
+      - 170.114.45.34
+      - 188.42.89.237
+      - 188.42.89.194
+      - 191.101.251.178
+      - 191.101.251.31
+      - 192.65.217.10
+      - 194.53.53.254
+      - 170.114.45.59
+      - 195.85.59.99
+      - 199.212.90.33
+      - 205.233.181.20
+      - 212.110.134.166
+      - 212.110.134.18
+      - 414c49.ddns.net
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -447,59 +300,38 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 185.148.106.249
       - 45.95.241.213
-      - 414c49.ddns.net_1
-      - 212.110.134.18
-      - 212.110.134.166
-      - 205.233.181.20
-      - 199.212.90.33
-      - 195.85.59.99_1
-      - 170.114.45.59
-      - 194.53.53.254_1
-      - 192.65.217.10_1
-      - 191.101.251.31
-      - 191.101.251.178
-      - 188.42.89.237_1
-      - 188.42.89.194_1
-      - 170.114.45.34
-      - 160.153.0.201
-      - 160.153.0.173
-      - 159.246.55.85
-      - 159.112.235.122_1
+      - "162.159.33.180 ؟\r"
+      - "141.101.115.240 ؟\r"
+      - "190.93.246.49 ؟\r"
+      - "108.162.198.60 ؟\r"
+      - "159.112.235.122\r"
+      - "188.42.89.194\r"
+      - "191.101.251.24\r"
+      - "414c49.ddns.net\r"
+      - 141.101.115.240 ؟
+      - 162.159.33.180 ؟
+      - 108.162.198.60 ؟
+      - 190.93.246.49 ؟
       - 147.185.161.199
-      - 80.94.83.14
-      - 45.85.118.1
-      - 414c49.ddns.net_2
-      - 203.30.191.74
-      - 195.85.59.99_2
-      - 103.160.204.4
-      - 194.53.53.254_2
-      - 192.65.217.10_2
-      - 191.101.251.24_1
-      - '191.101.251.178 '
-      - 188.42.89.237_2
-      - 188.42.89.194_2
-      - 185.238.228.14
-      - 154.83.2.29
-      - 141.193.213.133
-      - 108.165.216.88
-      - 414c49.ddns.net_3
-      - 191.101.251.24_2
-      - 188.42.89.194_3
-      - 159.112.235.122_2
-      - 141.101.115.240 ؟_1
-      - 190.93.246.49 ؟_1
-      - 190.93.246.49 ؟_2
-      - 190.93.246.49 ؟_3
-      - 108.162.198.60 ؟_1
-      - 108.162.198.60 ؟_2
-      - 108.162.198.60 ؟_3
-      - 162.159.33.180 ؟_1
-      - 162.159.33.180 ؟_2
-      - 162.159.33.180 ؟_3
-      - 141.101.115.240 ؟_2
-      - 141.101.115.240 ؟_3
+      - 159.112.235.122
+      - 159.246.55.85
+      - 160.153.0.173
+      - 160.153.0.201
+      - 170.114.45.34
+      - 188.42.89.237
+      - 188.42.89.194
+      - 191.101.251.178
+      - 191.101.251.31
+      - 192.65.217.10
+      - 194.53.53.254
+      - 170.114.45.59
+      - 195.85.59.99
+      - 199.212.90.33
+      - 205.233.181.20
+      - 212.110.134.166
+      - 212.110.134.18
+      - 414c49.ddns.net
 
 rules:
 # 本地/局域网地址
