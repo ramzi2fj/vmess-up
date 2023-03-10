@@ -1,0 +1,26 @@
+
+[General]
+dns-server = system, 108.137.44.39, 108.137.44.9, puredns.org:853
+
+[Proxy]
+xraymfg4.eu-ffaqrvbjixds.dopraxrocks.net = trojan, xraymfg4.eu-ffaqrvbjixds.dopraxrocks.net, 443, password=e52e129f-7dba-470a-84bd-85130f3d1b5c, skip-cert-verify=true, sni=, udp-relay=true
+144.76.110.76 = trojan, 144.76.110.76, 443, password=e52e129f-7dba-470a-84bd-85130f3d1b5c, skip-cert-verify=true, sni=, udp-relay=true
+162.159.140.141 = trojan, 162.159.140.141, 443, password=e52e129f-7dba-470a-84bd-85130f3d1b5c, skip-cert-verify=true, sni=, udp-relay=true
+104.18.233.170 = trojan, 104.18.233.170, 443, password=e52e129f-7dba-470a-84bd-85130f3d1b5c, skip-cert-verify=true, sni=, udp-relay=true
+xraymfg4.eu-ffaqrvbjixds.dopraxrocks.net 15 = vmess, xraymfg4.eu-ffaqrvbjixds.dopraxrocks.net, 443, username=e52e129f-7dba-470a-84bd-85130f3d1b5c, tls=true, ws=true, ws-path=/e52e129f-7dba-470a-84bd-85130f3d1b5c-vm, sni=xraymfg4.eu-ffaqrvbjixds.dopraxrocks.net, ws-headers=Host:xraymfg4.eu-ffaqrvbjixds.dopraxrocks.net, skip-cert-verify=1, tfo=true, udp-relay=true
+newapp23yhau.eu-ddskrfhnxrqp.ondoprax.com = vmess, newapp23yhau.eu-ddskrfhnxrqp.ondoprax.com, 443, username=5d165b59-02d7-4455-b62b-ed8456bdc275, tls=true, ws=true, ws-path=/vm, sni=newapp23yhau.eu-ddskrfhnxrqp.ondoprax.com, ws-headers=Host:newapp23yhau.eu-ddskrfhnxrqp.ondoprax.com, skip-cert-verify=1, tfo=true, udp-relay=true
+116.202.115.221 = vmess, 116.202.115.221, 443, username=5d165b59-02d7-4455-b62b-ed8456bdc275, tls=true, ws=true, ws-path=/vm, sni=newapp23yhau.eu-ddskrfhnxrqp.ondoprax.com, ws-headers=Host:newapp23yhau.eu-ddskrfhnxrqp.ondoprax.com, skip-cert-verify=1, tfo=true, udp-relay=true
+dry-poetry-601d.414c49.workers.dev = vmess, dry-poetry-601d.414c49.workers.dev, 443, username=5d165b59-02d7-4455-b62b-ed8456bdc275, tls=true, ws=true, ws-path=/vm, sni=dry-poetry-601d.414c49.workers.dev, ws-headers=Host:dry-poetry-601d.414c49.workers.dev, skip-cert-verify=1, tfo=true, udp-relay=true
+162.159.134.98 = vmess, 162.159.134.98, 443, username=5d165b59-02d7-4455-b62b-ed8456bdc275, tls=true, ws=true, ws-path=/vm, sni=dry-poetry-601d.414c49.workers.dev, ws-headers=Host:dry-poetry-601d.414c49.workers.dev, skip-cert-verify=1, tfo=true, udp-relay=true
+162.159.61.93 = vmess, 162.159.61.93, 443, username=5d165b59-02d7-4455-b62b-ed8456bdc275, tls=true, ws=true, ws-path=/vm, sni=dry-poetry-601d.414c49.workers.dev, ws-headers=Host:dry-poetry-601d.414c49.workers.dev, skip-cert-verify=1, tfo=true, udp-relay=true
+162.159.133.192 = vmess, 162.159.133.192, 443, username=5d165b59-02d7-4455-b62b-ed8456bdc275, tls=true, ws=true, ws-path=/vm, sni=dry-poetry-601d.414c49.workers.dev, ws-headers=Host:dry-poetry-601d.414c49.workers.dev, skip-cert-verify=1, tfo=true, udp-relay=true
+162.159.136.223 = vmess, 162.159.136.223, 443, username=5d165b59-02d7-4455-b62b-ed8456bdc275, tls=true, ws=true, ws-path=/vm, sni=dry-poetry-601d.414c49.workers.dev, ws-headers=Host:dry-poetry-601d.414c49.workers.dev, skip-cert-verify=1, tfo=true, udp-relay=true
+162.159.48.64 = vmess, 162.159.48.64, 443, username=5d165b59-02d7-4455-b62b-ed8456bdc275, tls=true, ws=true, ws-path=/vm, sni=dry-poetry-601d.414c49.workers.dev, ws-headers=Host:dry-poetry-601d.414c49.workers.dev, skip-cert-verify=1, tfo=true, udp-relay=true
+104.18.233.170 57 = vmess, 104.18.233.170, 443, username=5d165b59-02d7-4455-b62b-ed8456bdc275, tls=true, ws=true, ws-path=/vm, sni=dry-poetry-601d.414c49.workers.dev, ws-headers=Host:dry-poetry-601d.414c49.workers.dev, skip-cert-verify=1, tfo=true, udp-relay=true
+159.112.235.122 = vmess, 159.112.235.122, 443, username=5d165b59-02d7-4455-b62b-ed8456bdc275, tls=true, ws=true, ws-path=/vm, sni=dry-poetry-601d.414c49.workers.dev, ws-headers=Host:dry-poetry-601d.414c49.workers.dev, skip-cert-verify=1, tfo=true, udp-relay=true
+162.159.140.141 40 = vmess, 162.159.140.141, 443, username=5d165b59-02d7-4455-b62b-ed8456bdc275, tls=true, ws=true, ws-path=/vm, sni=dry-poetry-601d.414c49.workers.dev, ws-headers=Host:dry-poetry-601d.414c49.workers.dev, skip-cert-verify=1, tfo=true, udp-relay=true
+
+[Proxy Group]
+SelectGroup = select,xraymfg4.eu-ffaqrvbjixds.dopraxrocks.net,144.76.110.76,162.159.140.141,104.18.233.170,xraymfg4.eu-ffaqrvbjixds.dopraxrocks.net 15,newapp23yhau.eu-ddskrfhnxrqp.ondoprax.com,116.202.115.221,dry-poetry-601d.414c49.workers.dev,162.159.134.98,162.159.61.93,162.159.133.192,162.159.136.223,162.159.48.64,104.18.233.170 57,159.112.235.122,162.159.140.141 40
+[Rule]
+FINAL,SelectGroup
