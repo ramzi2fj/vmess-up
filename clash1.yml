@@ -12,7 +12,6 @@ ipv6: false
 dns:
   enable: true
   ipv6: false
-  enhanced-mode: redir-host
   listen: 0.0.0.0:7894
   fallback-filter:
     geoip: false
